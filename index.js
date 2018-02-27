@@ -2,6 +2,12 @@ console.log('webchat is starting ...')
 var express = require('express');
 var socket = require('socket.io');
 
+var $;
+$ = require('jquery');
+$('.tag').click(function() {
+  return console.log('clicked');
+});
+
 //App Setup
 var app = express();
 var server = app.listen(1337, function(){
