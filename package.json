@@ -22,6 +22,7 @@
   "homepage": "https://github.com/MMaier96/WebsocketChat#readme",
   "dependencies": {
     "express": "^4.16.2",
+    "jquery": "^3.3.1",
     "socket.io": "^2.0.4"
   }
 }
