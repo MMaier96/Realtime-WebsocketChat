@@ -12,3 +12,12 @@
  ```
  npm start
  ```
+
+ ## Packages (npm)
+ ### express
+ Fast, unopinionated, minimalist web framework
+ Website: https://www.npmjs.com/package/express
+
+ ### nodemon
+ Simple monitor script for use during development of a node.js app.
+ Website: https://www.npmjs.com/package/nodemon
