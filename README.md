@@ -14,7 +14,7 @@
  ```
  Or start the webchat as developer to restart the server automatically if the code has changed:
  ```
- npm start-dev
+ nodemon index
  ```
 
  ## Packages (npm)
