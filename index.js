@@ -16,5 +16,5 @@ app.use(express.static('public'));
 var io = socket(server);
 
 io.on('connection', function(socket){
-  console.log('A new client conected: ');
+  console.log('A new client conected: ' + socket.id);
 });

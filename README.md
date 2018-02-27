@@ -29,3 +29,7 @@
  ### socket.io
  node.js realtime framework server<br>
  Website: https://www.npmjs.com/package/socket.io
+
+ ### jQuery
+ JavaScript library for DOM operations <br>
+ Website: https://www.npmjs.com/package/jquery
