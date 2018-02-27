@@ -12,6 +12,10 @@
  ```
  npm start
  ```
+ Or start the webchat as developer to restart the server automatically if the code has changed:
+ ```
+ npm start-dev
+ ```
 
  ## Packages (npm)
  ### express
