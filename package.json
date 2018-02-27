@@ -1,0 +1,25 @@
+{
+  "name": "websocketchat",
+  "version": "1.0.0",
+  "description": "A websocket chat using socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMaier96/WebsocketChat.git"
+  },
+  "keywords": [
+    "webchat"
+  ],
+  "author": "marcel maier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMaier96/WebsocketChat/issues"
+  },
+  "homepage": "https://github.com/MMaier96/WebsocketChat#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
