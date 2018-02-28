@@ -12,4 +12,10 @@ $(document).ready(function(){
         location.reload();
       }
     });
+
+    $("#user-name").on("keyup", function(data){
+      if(data.keyCode == 13){
+        $("#enter-button").click();
+      }
+    });
 });

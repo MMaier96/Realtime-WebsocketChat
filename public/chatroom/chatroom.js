@@ -17,6 +17,13 @@ $(document).ready(function(){
     $("#message").val("");
   });
 
+
+$("#message").on("keyup", function(data){
+  if(data.keyCode == 13){
+    $("#send-button").click();
+  }
+});
+
   $("#message").on("change paste keyup", function(){
     if ($("#message").val().length > 0){
       if (!typing) {
@@ -33,7 +40,6 @@ $(document).ready(function(){
         });
       }
     }
-    console.log($("#message").val().length + "" + typing);
   });
 
   socket.on('chat', function(data){
@@ -44,18 +50,15 @@ $(document).ready(function(){
   })
 
   socket.on('joined', function(data){
-    $("#text-messages").append("<div class='notification'>" + data.user + " joined!</div>");
+    $("#text-messages").append("<div class='joined-notification'>" + data.user + " joined!</div>");
   })
 
   socket.on('startTyping', function(data){
-    console.log("start");
     $("#notifications").append("<div class='notification'>" + data.user + " is typing ...</div>");
   })
 
   socket.on('stopTyping', function(data){
-    console.log("stop");
     $(".notification").each(function(index){
-      console.log($(this));
       if($(this).text().indexOf(data.user) != -1){
         $(this).remove();
       }

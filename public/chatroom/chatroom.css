@@ -41,6 +41,11 @@ input{
   width: 110px;
   display: inline-block;
 }
+.joined-notification{
+  font-style: italic;
+  color: #666;
+}
+
 .notification{
   font-style: italic;
   color: #666;
