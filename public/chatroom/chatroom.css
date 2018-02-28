@@ -1,0 +1,87 @@
+/* CSS for desktops */
+#chat-window{
+  width: calc(90% - 100px);
+  height: calc(90vh - 100px);
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  border: 2px solid #1b698e;
+  border-radius: 3px;
+  padding: 50px;
+}
+#messages{
+  width: calc(100% - 14px);
+  height: calc(95% - 14px);
+  border: 1px solid rgba(0,0,0,0.4);
+  margin-bottom: 25px;
+  padding: 7px;
+}
+
+input{
+  width: calc(100% - 105px);
+  margin: 0 auto;
+  font-size: 1.25em;
+  padding: 5px;
+}
+
+#send-button{
+  display: inline;
+  text-align: center;
+  background-color:  #1b698e;
+
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+.message{
+  margin-bottom: 5px;
+}
+.send-by{
+  color: #1a79b3;
+  width: 110px;
+  display: inline-block;
+}
+.notification{
+  font-style: italic;
+  color: #666;
+}
+.text{
+  display: inline-block;
+  max-width: calc(100% - 110px);
+  vertical-align: text-top;
+}
+.
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #333;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #333;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #333;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #333;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #333;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #333;
+}
+/* CSS for mobile devices */
+@media (max-width: 600px) {
+  #chat-window{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: calc(100% - 20px);
+    height: calc(100vh - 70px);
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+  }
+}
