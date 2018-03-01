@@ -6,6 +6,9 @@ $(document).ready(function(){
   $("#send-button").click(function(){
     var message = $("#message").val();
 
+if (!message) {
+  return;
+}
     var currentdate = new Date();
     var datetime = currentdate.getHours() + ":" + currentdate.getMinutes();
 

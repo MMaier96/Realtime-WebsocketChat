@@ -14,7 +14,7 @@
   "keywords": [
     "webchat"
   ],
-  "author": "marcel maier",
+  "author": "Marcel Maier, Florian Schenk, Theresa Hillenbrand, Justus Grauel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MMaier96/WebsocketChat/issues"
