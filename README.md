@@ -3,24 +3,24 @@
  ## Requirements
  Make sure that the latest version of *node.js/npm* is installed.<br>
  You can check the current version of node.js/npm by typing the following into you systems command line
- ```
- node --version			// shows the current version of node.js
- npm -- version			// shows the current version of npm
+ ```bash
+ $ node --version			// shows the current version of node.js
+ $ npm  -- version			// shows the current version of npm
  ```
 
  ## Starting the Server
  To start the webchat using the node.js command line you need to run:
- ```
- npm start			// starts the server with node.js
+ ```bash
+ $ npm start			// starts the server with node.js
  ```
  Or start the webchat as developer to restart the server automatically if the code has changed. Make sure you have installed *nodemon* as a developer tool first:
- ```
- npm install -g nodemon		//install nodemon as developer tool
+ ```bash
+ $ npm install -g nodemon		//install nodemon as developer tool
  ```
  After installing you can run the server with nodemon:
 
- ```
- nodemon server			//.js is optional
+ ```bash
+ $ nodemon server			//.js is optional
  ```
 
  ## Packages (npm)
