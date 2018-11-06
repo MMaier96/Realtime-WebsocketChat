@@ -1,5 +1,7 @@
  # Websocket Chat
-
+ ## Screenshot
+ ![Screenshot](https://i.imgur.com/HzK5j6L.png)
+ 
  ## Requirements
  Make sure that the latest version of *node.js/npm* is installed.<br>
  You can check the current version of node.js/npm by typing the following into you systems command line
@@ -9,6 +11,10 @@
  ```
 
  ## Starting the Server
+ Before running the server, you need to install the modules used for this project:
+ ```bash
+ $ npm install			// install all node.js modules
+ ```
  To start the webchat using the node.js command line you need to run:
  ```bash
  $ npm start			// starts the server with node.js
@@ -23,7 +29,7 @@
  $ nodemon server			//.js is optional
  ```
 
- ## Packages (npm)
+ ## Used Packages (npm)
  ### express
  Fast, unopinionated, minimalist web framework<br>
  Website: https://www.npmjs.com/package/express
